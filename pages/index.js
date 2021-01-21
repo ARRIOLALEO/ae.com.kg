@@ -4,6 +4,9 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 import AboutUs from '../components/aboutus'
 import SercicesAndPrices from '../components/servicesAndPrices'
+import Footer from '../components/footer'
+import HowWeWork from '../components/howWeWork'
+import CallToAction from '../components/callToAction'
 
 export default function Home() {
   return (
@@ -27,7 +30,10 @@ export default function Home() {
       <Header/>
       <Hero/>
       <AboutUs/>
+      <CallToAction/>
       <SercicesAndPrices/>
+      <HowWeWork/>
+      <Footer/>
 
 
 
