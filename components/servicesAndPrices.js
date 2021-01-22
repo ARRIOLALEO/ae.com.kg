@@ -3,7 +3,7 @@ import {services} from '../components/data/services'
 import Service from '../components/sevice'
 
 export default function ServicesAndPrices() {
-   const service = services.map(x => <Service index={x.type} data ={x}/>)
+   const service = services.map(x => <Service key={x.type} data ={x}/>)
     return (
         <section className="section element-section">
           {service}

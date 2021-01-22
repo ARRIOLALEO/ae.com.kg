@@ -16,25 +16,22 @@ export default function Footer() {
 
           
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Installation
+             Разработка «Сайтов-визиток»
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Release Notes
+             Разработка «Простых сайтов»
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Upgrade Guide
+              Разработка «Корпоративных сайтов»
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Using with Preprocessors
+             Разработка «Интернет магазинов»
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Optimizing for Production
+             Разработка «Сложных интернет-магазинов»
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Browser Support
-            </a>
-            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                IntelliSense
+              Разработка нестандартных проектов
             </a>
         </div>
 
@@ -47,25 +44,19 @@ export default function Footer() {
 
           
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Utility-First
+              Контекстная реклама в  «Google».
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Responsive Design
+             других системах и социальных сетях.
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Hover, Focus, & Other States
+             Продвижение сайтов в результатах поисковых систем (Топ 10).
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Dark Mode
+             Комплексная поддержка интернет-сайтов.
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Adding Base Styles
-            </a>
-            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Extracting Components
-            </a>
-            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Adding New Utilities
+             Система управления контентом «CMS», 
             </a>
         </div>
 
@@ -78,25 +69,19 @@ export default function Footer() {
 
          
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Configuration
+              индивидуальные предприниматели
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Theme Configuration
+              руководители и менеджеры компаний малого и среднего бизнеса
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Breakpoints
+              топ-менеджеры крупных компаний
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Customizing Colors
+               представители рекламных агентств и дизайн-студий
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Customizing Spacing
-            </a>
-            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Configuring Variants
-            </a>
-            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Plugins
+               IT-разработчики
             </a>
         </div>
 
@@ -109,16 +94,22 @@ export default function Footer() {
 
        
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                GitHub
+              Обслуживание
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Discord
+              Автоматизация процессов компаний
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Twitter
+             Онлайн оплата  на сайте
             </a>
             <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                YouTube
+            веб-аналитика и консалтинг
+            </a>
+            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Дизайн, UI/UX
+            </a>
+            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            IT консалтинг 
             </a>
         </div>
     </div>

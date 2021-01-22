@@ -8,6 +8,8 @@ import Footer from '../components/footer'
 import HowWeWork from '../components/howWeWork'
 import CallToAction from '../components/callToAction'
 import Clients from '../components/clients'
+import Contacbtns from '../components/contacbtns'
+
 
 export default function Home() {
   return (
@@ -31,6 +33,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <AboutUs/>
+      <Contacbtns/>
       <CallToAction/>
       <SercicesAndPrices/>
       <HowWeWork/>
