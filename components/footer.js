@@ -5,7 +5,7 @@ export default function Footer() {
      
       
 
-<footer className="bg-gray-800 pt-10 sm:mt-10 pt-10">
+<footer className="bg-gray-800   ">
     <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
      
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
@@ -123,7 +123,7 @@ export default function Footer() {
         </div>
     </div>
 
-    <div className="pt-2">
+    <div className="">
         <div className="flex pb-5 px-3 m-auto pt-5 
             border-t border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl">

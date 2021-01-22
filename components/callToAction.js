@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function CallToAction() {
     return (
+      <section className="section element-section" >
         <div className="py-16">
   <div className="container m-auto px-6">
 
@@ -24,5 +25,6 @@ export default function CallToAction() {
 
   </div>
 </div>
+</section>
     )
 }

@@ -7,6 +7,7 @@ import SercicesAndPrices from '../components/servicesAndPrices'
 import Footer from '../components/footer'
 import HowWeWork from '../components/howWeWork'
 import CallToAction from '../components/callToAction'
+import Clients from '../components/clients'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <CallToAction/>
       <SercicesAndPrices/>
       <HowWeWork/>
+      <Clients/>
       <Footer/>
 
 
