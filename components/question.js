@@ -1,23 +1,44 @@
-import React, { useState } from 'react';
-import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
+import React, { useState } from "react";
+import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
 const Questionsimple = (props) => {
-  const {title,info} = props.data
-  const [open, setOpen] = useState(false)
-  const [btnIcon,setSimbol] =  useState(false)
-  return <article className="question" >
-    <header>
-   <h4 className="section-title"> {title}</h4>
-    <button className="btn-questions" onClick={()=>{
-        setOpen(prevOpen => !prevOpen)
-        setSimbol(prevSimbol => !prevSimbol)
-    }}>{btnIcon ? <AiOutlineMinus></AiOutlineMinus>:<AiOutlinePlus></AiOutlinePlus>}</button>
-    </header>
-      {open ? <p>{info}</p> : <></>}
+  const { title, info } = props.data;
+  const [sowQuestion, setShowQuestions] = useState(true);
+  const [showAwnser, setShowAwnser] = useState(false);
+  const showTheAwnser = () => setShowQuestions(!sowQuestion)
 
-      
-
-  </article>;
+  return (
+    <div className="ml-5  flex flex-col justify-center max-w-2xl rounded">
+      <div>
+        <h4 className="section-title-question"> {title}</h4>
+      </div>
+      <article
+        className={`text-justify mt-4 ${
+          sowQuestion ? ".show-question" : "not-show-question"
+        }`}
+      >
+        {info}
+      </article>
+      {sowQuestion ? (
+        <a
+          onClick={() => {
+            showTheAwnser()
+          }}
+        >
+          <AiOutlineMinus />
+        </a>
+      ) : (
+        <a
+        onClick={() => {
+          showTheAwnser()
+        }}
+      >
+       
+        <AiOutlinePlus />
+        </a>
+      )}
+    </div>
+  );
 };
 
 export default Questionsimple;

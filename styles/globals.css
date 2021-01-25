@@ -1021,3 +1021,10 @@ header .navbar ul li a.active::before {
     padding-bottom: 4rem;
   }
 }
+/* this is for questions */
+.not-show-question{
+  display: none;
+}
+.show-question{
+  display: block;
+}
