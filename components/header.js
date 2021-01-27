@@ -7,8 +7,8 @@ export default function Header() {
         <div className="row">
           <div className="brand">
             <a href="">
-              <img className="logos" title="Logo" src="./imgs/logo.png" />
-              <img className="logo" src="./imgs/logo-negro.png" />
+              <img className="logos" alt="main logo " title="Logo" src="./imgs/logo.png" />
+              <img className="logo" src="./imgs/logo-negro.png" alt="logo mobile versionb"/>
             </a>
           </div>
           <div className="ham-burger">

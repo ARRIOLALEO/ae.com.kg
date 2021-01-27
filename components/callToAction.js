@@ -14,7 +14,7 @@ export default function CallToAction() {
         </div>
         <div className="lg:w-5/12 order-2">
           <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
-          alt="" className="rounded img-call-to-acction"/>
+          alt="website computer" className="rounded img-call-to-acction"/>
         </div>
     </div>
 

@@ -1028,3 +1028,33 @@ header .navbar ul li a.active::before {
 .show-question{
   display: block;
 }
+.shadow-question{
+  padding: 1rem 1.5rem;
+  border: 2px solid #eae6eb;
+  border: 2px solid var(--clr-grey-special);
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+.icon-question{
+  background: transparent;
+    border-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    background: #eae6eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #b4345c;
+
+    cursor: pointer;
+    margin-left: 1rem;
+    align-self: center;
+}
+.header-question{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
