@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 export default function CallToAction() {
     return (
@@ -7,6 +8,7 @@ export default function CallToAction() {
   <div className="container m-auto px-6">
 
    <div className="lg:flex justify-between items-center">
+     <Fade left>
        <div className="lg:w-6/12 lg:p-0 p-7">
           <h1 className="text-4xl font-bold leading-tight mb-5 capitalize">  Professional Tailwind theme designed for developers. </h1>
           <p className="text-xl">  With Tailwind you can optimized the customization process to save your team time when building websites. </p>
@@ -17,10 +19,13 @@ export default function CallToAction() {
           </div>
 
         </div>
+        </Fade>
+        <Fade right>
         <div className="lg:w-5/12 order-2">
           <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
           alt="" className="rounded img-call-to-acction"/>
         </div>
+        </Fade>
     </div>
 
   </div>

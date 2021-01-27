@@ -1,7 +1,9 @@
 import React from "react";
+import Fade from 'react-reveal/Fade'
 
 export default function AboutUs() {
   return (
+    <Fade bottom>
     <section className="section about-us left-about">
          <div className="section-about-1">
         <img src="/imgs/stack.png" alt="stack javascript" className="image-stack"/>
@@ -18,5 +20,6 @@ export default function AboutUs() {
         versions of Lorem Ipsum.
       </div>
     </section>
+    </Fade>
   );
 }
