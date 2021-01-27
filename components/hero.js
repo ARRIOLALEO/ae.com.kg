@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Fade from 'react-reveal/Fade'
 export default function Hero() {
     return (
         <>
@@ -28,6 +28,7 @@ export default function Hero() {
 			</div>
 		    <div className="row full-screen">
 			<div className="home-content">
+				<Fade left>
 			    <div className="block">
 			
 				<h1>Студия создания сайтов.</h1>
@@ -35,6 +36,7 @@ export default function Hero() {
 			
 				<a href="#contact">Contactame</a>
 			    </div>
+				</Fade>
 			    <div className="guitarra">
 				<img className="guitar" src="/imgs/javascript-react.png" alt="React Adn development" />
 			    </div>

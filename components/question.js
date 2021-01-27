@@ -13,14 +13,16 @@ const Questionsimple = (props) => {
         <h4 className="section-title-question"> {title}</h4>
         {sowQuestion ? (
         <a
-          onClick={() => {
+          onClick={(e) => {
+            e.preventDefault()
             showTheAwnser()
           } } className="icon-question" href="#">
           <AiOutlineMinus  />
         </a>
       ) : (
         <a
-        onClick={() => {
+        onClick={(e) => {
+          e.preventDefault()
           showTheAwnser()
         }} className="icon-question"
         href="#"
