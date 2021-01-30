@@ -1058,3 +1058,8 @@ header .navbar ul li a.active::before {
     justify-content: space-between;
     align-items: center;
 }
+
+.paddings-clientes{
+  padding-left: 5em;
+  padding-right: 5em;
+}

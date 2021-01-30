@@ -10,6 +10,7 @@ import CallToAction from '../components/callToAction'
 import Clients from '../components/clients'
 import Contacbtns from '../components/contacbtns'
 import Faq from '../components/faq'
+import Contact from '../components/contact'
 
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
       <HowWeWork/>
       <Faq/>
       <Clients/>
+      <Contact/>
       <Footer/>
 
 

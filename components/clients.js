@@ -4,7 +4,7 @@ export default function Clients() {
     return (
         <section>
             
-  <div className="m-10 mx-auto  sm:p-20" >
+  <div className="paddings-clientes" >
     
   
     <div className="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl min-height-19" >
