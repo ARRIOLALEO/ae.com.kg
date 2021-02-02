@@ -1,9 +1,9 @@
 import React from 'react'
 import Tag from '../components/tag'
+import PropTypes from 'prop-types'
 
-
-export default function sevice({data}) {
-    const {img,type,Description,tags} = data
+const service = (props) =>{
+    const {img,type,Description,tags} = props.data
     const hastTags = tags.map(hast => <Tag index={hast} tag={hast}/>)
     return (
         <div class="max-w-xs rounded overflow-hidden shadow-lg my-2 p-4">
@@ -20,3 +20,10 @@ export default function sevice({data}) {
       </div>
     )
 }
+service.propTypes ={
+  Description:PropTypes.string
+}
+service.defaultProps ={
+  Description :"mario"
+}
+export default service

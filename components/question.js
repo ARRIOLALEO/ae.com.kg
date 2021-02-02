@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import PropTypes from 'prop-types'
 
 const Questionsimple = (props) => {
-  const { title, info } = props.data;
+  const { title , info } = props.data;
   const [sowQuestion, setShowQuestions] = useState(false);
   const [showAwnser, setShowAwnser] = useState(false);
   const showTheAwnser = () => setShowQuestions(!sowQuestion)
@@ -44,6 +45,13 @@ const Questionsimple = (props) => {
       </article>
     </div>
   );
+ 
 };
-
+// validation of the props
+Questionsimple.propTypes = {
+  title: PropTypes.bool
+};
+Questionsimple.defaultPros ={
+  tittle:"mario"
+}
 export default Questionsimple;
